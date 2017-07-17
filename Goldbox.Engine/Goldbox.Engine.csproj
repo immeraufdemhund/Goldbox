@@ -33,6 +33,10 @@
     <Compile Include="..\SharedAssemblyInfo.cs">
       <Link>Properties\SharedAssemblyInfo.cs</Link>
     </Compile>
+    <Compile Include="DisplayColors.cs" />
+    <Compile Include="GoldboxEngineFactory.cs" />
+    <Compile Include="IDisplay.cs" />
+    <Compile Include="IPicture.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

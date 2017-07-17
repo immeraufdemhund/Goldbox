@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goldbox.Engine", "Goldbox.Engine\Goldbox.Engine.csproj", "{BE8EC53A-7E54-4569-9375-5C337F353622}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goldbox.Gui", "Goldbox.Gui\Goldbox.Gui.csproj", "{B35CCD15-F426-406D-ADE2-0BF090EF77DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{BE8EC53A-7E54-4569-9375-5C337F353622}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE8EC53A-7E54-4569-9375-5C337F353622}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE8EC53A-7E54-4569-9375-5C337F353622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B35CCD15-F426-406D-ADE2-0BF090EF77DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B35CCD15-F426-406D-ADE2-0BF090EF77DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B35CCD15-F426-406D-ADE2-0BF090EF77DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B35CCD15-F426-406D-ADE2-0BF090EF77DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
