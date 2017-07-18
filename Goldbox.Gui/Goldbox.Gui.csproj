@@ -73,6 +73,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Goldbox.Engine.Devices\Goldbox.Engine.Devices.csproj">
+      <Project>{8e3574af-53b7-4b1d-b2db-17f8bd541d5c}</Project>
+      <Name>Goldbox.Engine.Devices</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Goldbox.Engine\Goldbox.Engine.csproj">
       <Project>{be8ec53a-7e54-4569-9375-5c337f353622}</Project>
       <Name>Goldbox.Engine</Name>

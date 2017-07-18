@@ -1,9 +1,15 @@
-﻿namespace Goldbox.Engine
+﻿using System.Collections.Generic;
+
+namespace Goldbox.Engine
 {
     public delegate void DisplayUpdatedHandler(byte[] videoRam, int videoRamSize);
     public interface IDisplay
     {
         event DisplayUpdatedHandler Updated;
+    }
+    public interface IGameDisplayControllerFactory
+    {
+        IDictionary<DisplayMode, IGameDisplayController> GameDisplayControllers { get; }
     }
     public interface IGameDisplayController : IDisplay
     {

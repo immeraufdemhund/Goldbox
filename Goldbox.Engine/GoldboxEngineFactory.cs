@@ -1,4 +1,4 @@
-﻿using System;
+﻿using Goldbox.Engine.DependencyResolution;
 
 namespace Goldbox.Engine
 {
@@ -6,38 +6,8 @@ namespace Goldbox.Engine
     {
         public static IDisplay GetDisplay()
         {
-            var display = new EgaDisplay();
+            var display = IoC.Get<IGameDisplayControllerFactory>().GameDisplayControllers[DisplayMode.Ega];
             return display;
-        }
-    }
-
-    internal class EgaDisplay : IGameDisplayController
-    {
-        public event DisplayUpdatedHandler Updated;
-
-        public void Clear()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Draw(IPicture picture, int x = 0, int y = 0)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Resume()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Suspend()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Write(string text, int x = 0, int y = 0, DisplayColors foregroundColor = DisplayColors.Black)
-        {
-            throw new NotImplementedException();
         }
     }
 }

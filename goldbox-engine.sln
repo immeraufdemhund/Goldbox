@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goldbox.Engine", "Goldbox.E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goldbox.Gui", "Goldbox.Gui\Goldbox.Gui.csproj", "{B35CCD15-F426-406D-ADE2-0BF090EF77DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goldbox.Engine.Devices", "Goldbox.Engine.Devices\Goldbox.Engine.Devices.csproj", "{8E3574AF-53B7-4B1D-B2DB-17F8BD541D5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B35CCD15-F426-406D-ADE2-0BF090EF77DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B35CCD15-F426-406D-ADE2-0BF090EF77DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B35CCD15-F426-406D-ADE2-0BF090EF77DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E3574AF-53B7-4B1D-B2DB-17F8BD541D5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E3574AF-53B7-4B1D-B2DB-17F8BD541D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E3574AF-53B7-4B1D-B2DB-17F8BD541D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E3574AF-53B7-4B1D-B2DB-17F8BD541D5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

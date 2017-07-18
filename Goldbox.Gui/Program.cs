@@ -1,4 +1,5 @@
 ﻿using Goldbox.Engine;
+using Goldbox.Engine.DependencyResolution;
 using System;
 using System.Windows.Forms;
 
@@ -12,6 +13,8 @@ namespace Goldbox.Gui
         [STAThread]
         static void Main()
         {
+            IoC.Initialize();
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
