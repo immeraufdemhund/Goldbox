@@ -1,0 +1,186 @@
+;                                         
+;fatv9.cat                              
+;Global Timbre Library assignments for sample AIL V2.0 applications
+;                                         
+;Usage: C:\>glib sample.cat
+;                                         
+
+outfile("fatv9.ad")            ;create Ad Lib Global Timbre Library
+        
+BNK_file("fatv8.bnk")          ;name of Ad Lib Instrument Maker bankfile
+
+;
+;Bank 0: Melodic instruments to emulate Roland MT-32 built-in timbres
+;
+
+timbre(0,0) = BNK_inst("fpiano1",0)             ;Acou Piano 1
+timbre(0,1) = BNK_inst("fpiano1",0)             ;Acou Piano 2
+timbre(0,2) = BNK_inst("fpiano1",0)             ;Acou Piano 3
+timbre(0,3) = BNK_inst("fdemat2",0)           ;*SFX
+timbre(0,4) = BNK_inst("fdemat1",0)           ;*SFX
+timbre(0,5) = BNK_inst("fepian1",0)           ;Elec Piano 3
+timbre(0,6) = BNK_inst("fbeep1",0)             ;*SFX
+timbre(0,7) = BNK_inst("fred1",0)             ;*SFX
+timbre(0,8) = BNK_inst("dorgan1",0)             ;Elec Org 1
+timbre(0,9) = BNK_inst("dorgan2",0)             ;Elec Org 2
+timbre(0,10) = BNK_inst("forgan2",0)            ;Elec Org 3
+timbre(0,11) = BNK_inst("organ4",0)            ;Elec Org 4
+timbre(0,12) = BNK_inst("dpipe1",0)             ;Pipe Org 1
+timbre(0,13) = BNK_inst("dpipe2",0)             ;Pipe Org 2
+timbre(0,14) = BNK_inst("fview1",0)             ;*SFX
+timbre(0,15) = BNK_inst("fview2",0)           ;*SFX
+timbre(0,16) = BNK_inst("fharpsi1",0)           ;Harpsi 1
+timbre(0,17) = BNK_inst("fharpsi1",0)           ;Harpsi 2
+timbre(0,18) = BNK_inst("fharpsi1",0)           ;Harpsi 3
+timbre(0,19) = BNK_inst("fclav1",0)           ;Clavi 1
+timbre(0,20) = BNK_inst("fclav1",0)           ;Clavi 2
+timbre(0,21) = BNK_inst("fclav1",0)           ;Clavi 3
+timbre(0,22) = BNK_inst("dcelest1",0)           ;Celesta 1
+timbre(0,23) = BNK_inst("dcelest2",0)           ;Celesta 2
+timbre(0,24) = BNK_inst("fsynbrs2",0)          ;Syn Brass 1
+timbre(0,25) = BNK_inst("fsynbrs3",0)          ;Syn Brass 2
+timbre(0,26) = BNK_inst("sftbrss1",0)          ;Syn Brass 3
+timbre(0,27) = BNK_inst("fsynbrs4",0)          ;Syn Brass 4
+timbre(0,28) = BNK_inst("bass2",0)             ;Syn Bass 1
+timbre(0,29) = BNK_inst("bass2",0)             ;Syn Bass 2
+timbre(0,30) = BNK_inst("bass2",0)             ;Syn Bass 3
+timbre(0,31) = BNK_inst("bass2",0)             ;Syn Bass 4
+timbre(0,32) = BNK_inst("ffanta1",0)          ;Fantasy
+timbre(0,33) = BNK_inst("dharmopn",0)              ;Harmo Pan
+timbre(0,34) = BNK_inst("dchoral",0)              ;Chorale
+timbre(0,35) = BNK_inst("dglasses",0)           ;Glasses
+timbre(0,36) = BNK_inst("fsndtrk2",0)              ;Soundtrack
+timbre(0,37) = BNK_inst("moon",0)              ;Atmosphere
+timbre(0,38) = BNK_inst("dwmbell",0)          ;Warm Bell
+timbre(0,39) = BNK_inst("synbass1",0)          ;Funny Vox
+timbre(0,40) = BNK_inst("fechobl1",0)             ;Echo Bell
+timbre(0,41) = BNK_inst("fdoor1",0)             ;*SFX
+timbre(0,42) = BNK_inst("oboe1",0)             ;Oboe 2001
+timbre(0,43) = BNK_inst("fechopn1",0)             ;Echo Pan
+timbre(0,44) = BNK_inst("bass2",0)             ;Doctor Solo
+timbre(0,45) = BNK_inst("bass2",0)             ;Schooldaze
+timbre(0,46) = BNK_inst("javaican",0)          ;Bellsinger
+timbre(0,47) = BNK_inst("dsqwve",0)            ;S*quare Wave
+timbre(0,48) = BNK_inst("fstring1",0)          ;Str Sect 1
+timbre(0,49) = BNK_inst("fstring2",0)          ;Str Sect 2
+timbre(0,50) = BNK_inst("fstring3",0)          ;Str Sect 3
+timbre(0,51) = BNK_inst("fpizz1",0)             ;Pizzicato
+timbre(0,52) = BNK_inst("violin",0)            ;Violin 1
+timbre(0,53) = BNK_inst("violin1",0)           ;Violin 2
+timbre(0,54) = BNK_inst("violin",0)            ;Cello 1
+timbre(0,55) = BNK_inst("cello",0)             ;Cello 2
+timbre(0,56) = BNK_inst("fcntrbs1",0)           ;Contrabass
+timbre(0,57) = BNK_inst("fharp1",0)             ;Harp 1
+timbre(0,58) = BNK_inst("fharp1",0)              ;Harp 2
+timbre(0,59) = BNK_inst("dgitar1",0)           ;Guitar 1
+timbre(0,60) = BNK_inst("ftorp1",0)           ;*SFX
+timbre(0,61) = BNK_inst("fphase1",0)           ;*SFX
+timbre(0,62) = BNK_inst("a16note",0)           ;*SFX
+timbre(0,63) = BNK_inst("fsphase1",0)            ;*SFX 
+timbre(0,64) = BNK_inst("dabass1",0)             ;Acou Bass 1
+timbre(0,65) = BNK_inst("dabass2",0)             ;Acou Bass 2
+timbre(0,66) = BNK_inst("bass2",0)             ;Elec Bass 1
+timbre(0,67) = BNK_inst("bass2",0)             ;Elec Bass 2
+timbre(0,68) = BNK_inst("bbass",0)             ;Slap Bass 1
+timbre(0,69) = BNK_inst("bbass",0)             ;Slap Bass 2
+timbre(0,70) = BNK_inst("ffbass1",0)             ;Fretless 1
+timbre(0,71) = BNK_inst("ffbass1",0)             ;Fretless 2
+timbre(0,72) = BNK_inst("fflute3",0)            ;Flute 1
+timbre(0,73) = BNK_inst("fflute1",0)            ;Flute 2
+timbre(0,74) = BNK_inst("fflute1",0)            ;Piccolo 1
+timbre(0,75) = BNK_inst("fflute2",0)            ;Piccolo 2
+timbre(0,76) = BNK_inst("frecor1",0)            ;Recorder
+timbre(0,77) = BNK_inst("flute2",0)            ;Pan Pipes
+timbre(0,78) = BNK_inst("fping1",0)              ;*SFX   
+timbre(0,79) = BNK_inst("fscan1",0)              ;*SFX   
+timbre(0,80) = BNK_inst("fenerg1",0)              ;*SFX
+timbre(0,81) = BNK_inst("softsax",0)           ;Sax 4
+timbre(0,82) = BNK_inst("fclrnt2",0)             ;Clarinet 1
+timbre(0,83) = BNK_inst("fclrnt1",0)          ;Clarinet 2
+timbre(0,84) = BNK_inst("doboe",0)              ;Oboe
+timbre(0,85) = BNK_inst("denghorn",0)              ;Engl Horn
+timbre(0,86) = BNK_inst("fbssn1",0)           ;Bassoon
+timbre(0,87) = BNK_inst("harmonca",0)          ;Harmonica
+timbre(0,88) = BNK_inst("dtrump1",0)          ;Trumpet 1
+timbre(0,89) = BNK_inst("dtrump1",0)          ;Trumpet 2
+timbre(0,90) = BNK_inst("dtbone1",0)            ;Trombone 1
+timbre(0,91) = BNK_inst("dtbone1",0)            ;Trombone 2
+timbre(0,92) = BNK_inst("ffrhorn1",0)           ;Fr Horn 1
+timbre(0,93) = BNK_inst("ffrhorn1",0)           ;Fr Horn 2
+timbre(0,94) = BNK_inst("dtuba1",0)             ;Tuba
+timbre(0,95) = BNK_inst("brass1",0)            ;Brs Sect 1
+timbre(0,96) = BNK_inst("brass2",0)            ;Brs Sect 2
+timbre(0,97) = BNK_inst("dvibes1",0)            ;Vibe 1
+timbre(0,98) = BNK_inst("dvibes1",0)            ;Vibe 2
+timbre(0,99) = BNK_inst("marimba",0)           ;Syn Mallet
+timbre(0,100) = BNK_inst("belshort",0)         ;Windbell
+timbre(0,101) = BNK_inst("belshort",0)         ;Glock
+timbre(0,102) = BNK_inst("belshort",0)         ;Tube Bell
+timbre(0,103) = BNK_inst("xylofone",0)         ;Xylophone
+timbre(0,104) = BNK_inst("marimba",0)          ;Marimba
+timbre(0,105) = BNK_inst("koto1",0)            ;Koto
+timbre(0,106) = BNK_inst("fstrp2",0)           ;Sho
+timbre(0,107) = BNK_inst("fshaku1",0)            ;Shakuhachi
+timbre(0,108) = BNK_inst("flute",0)            ;Whistle 1
+timbre(0,109) = BNK_inst("flute",0)            ;Whistle 2
+timbre(0,110) = BNK_inst("flute2",0)           ;Bottleblow
+timbre(0,111) = BNK_inst("flute2",0)           ;Breathpipe
+timbre(0,112) = BNK_inst("dtimp1",0)           ;Timpani
+timbre(0,113) = BNK_inst("dkick1",0)              ;Melodic Tom
+timbre(0,114) = BNK_inst("dsnare",0)           ;Deep Snare
+timbre(0,115) = BNK_inst("dclhihat",0)          ;Elec Perc 1
+timbre(0,116) = BNK_inst("dride1",0)          ;Elec Perc 2
+timbre(0,117) = BNK_inst("dtaikrim",0)          ;Taiko
+timbre(0,118) = BNK_inst("synsnr2",0)          ;Taiko Rim
+timbre(0,119) = BNK_inst("dride1",0)           ;Cymbal
+timbre(0,120) = BNK_inst("dtaikrim",0)          ;Castanets
+timbre(0,121) = BNK_inst("ftriang1",0)         ;Triangle
+timbre(0,122) = BNK_inst("forchit2",0)         ;Orche Hit
+timbre(0,123) = BNK_inst("phone1",0)           ;Telephone
+timbre(0,124) = BNK_inst("chirp",0)            ;Bird Tweet
+timbre(0,125) = BNK_inst("mars",0)             ;One Note Jam
+timbre(0,126) = BNK_inst("bells",0)            ;Water Bells
+timbre(0,127) = BNK_inst("meri",0)             ;Jungle Tune
+
+;
+;Rhythm key assignments (to Ad Lib melodic instruments)
+;
+;Played in channel 10 to emulate built-in Roland MT-32 rhythm sounds
+;
+;(Bank 127 reserved for use with "rhythm" emulation instruments)
+;
+
+timbre(127,35) = BNK_inst("dkick1",35)          ;Acou BD
+timbre(127,36) = BNK_inst("dkick1",36)          ;Acou BD
+timbre(127,37) = BNK_inst("dtaikrim",37)            ;Rim Shot
+timbre(127,38) = BNK_inst("dsnare",38)         ;Acou SD
+timbre(127,39) = BNK_inst("dtaikrim",39)         ;Hand Clap
+timbre(127,40) = BNK_inst("dsnare",32)         ;Elec SD
+timbre(127,41) = BNK_inst("dtoms",48)            ;Acou Low Tom
+timbre(127,42) = BNK_inst("dclhihat",42)         ;Clsd Hi Hat
+timbre(127,43) = BNK_inst("dtoms",50)            ;Acou Low Tom
+timbre(127,44) = BNK_inst("fohat4",44)        ;Open Hi Hat 2
+timbre(127,45) = BNK_inst("dtoms",52)            ;Acou Mid Tom
+timbre(127,46) = BNK_inst("fohat3",46)        ;Open Hi Hat 1
+timbre(127,47) = BNK_inst("dtoms",54)            ;Acou Mid Tom
+timbre(127,48) = BNK_inst("dtoms",55)            ;Acou Hi Tom
+timbre(127,49) = BNK_inst("fcrash2",49)        ;Crash Cym
+timbre(127,50) = BNK_inst("dtoms",57)            ;Acou Hi Tom
+timbre(127,51) = BNK_inst("dride1",51)        ;Ride Cym
+timbre(127,54) = BNK_inst("dtamb",61)        ;Tambourine
+;timbre(127,56) = BNK_inst("ftom1",56)            ;Cowbell
+timbre(127,60) = BNK_inst("dhibong",60)            ;High Bongo
+timbre(127,61) = BNK_inst("dlobong",61)            ;Low Bongo
+timbre(127,62) = BNK_inst("tom1",62)            ;Mt High Conga
+;timbre(127,63) = BNK_inst("tom1",63)            ;High Conga
+;timbre(127,64) = BNK_inst("tom1",64)            ;Low Conga
+;timbre(127,65) = BNK_inst("tom1",65)            ;High Timbale
+;timbre(127,66) = BNK_inst("tom2",66)            ;Low Timbale
+;timbre(127,67) = BNK_inst("snare1",67)         ;High Agogo
+;timbre(127,68) = BNK_inst("tom1",68)         ;Low Agogo
+timbre(127,69) = BNK_inst("fmarac1",40)        ;Cabasa
+timbre(127,70) = BNK_inst("fmarac1",70)        ;Maracas
+;timbre(127,71) = BNK_inst("whistle",71)        ;Smba Whis S
+;timbre(127,72) = BNK_inst("whistle",72)        ;Smba Whis L
+;timbre(127,73) = BNK_inst("frim1",73)        ;Quijada
+timbre(127,75) = BNK_inst("fclave2",75)        ;Claves
